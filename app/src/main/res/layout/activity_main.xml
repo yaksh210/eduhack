@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif-monospace"
+        android:text="Live Location"
+        android:textAlignment="center"
+        android:textColor="#E60734"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/getLocation"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="95dp"
+        android:backgroundTint="#CF4B4B"
+        android:text="Get Location" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="39dp"
+        android:backgroundTint="#CF4B4B"
+        android:text="Send Location" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lattitude"
+        android:text="Lattitude"
+        android:textSize="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#0077D6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitude"
+        android:layout_alignStart="@id/lattitude"
+        android:layout_below="@+id/lattitude"
+        android:text="Longitude"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#0077D6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_alignStart="@id/lattitude"
+        android:layout_below="@+id/longitude"
+        android:text="Address"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#0077D6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:layout_alignStart="@id/lattitude"
+        android:layout_below="@+id/address"
+        android:text="City"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#0077D6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:layout_alignStart="@id/lattitude"
+        android:layout_below="@+id/city"
+        android:text="Country"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="italic"
+        android:textColor="#0077D6"/>
+</RelativeLayout>

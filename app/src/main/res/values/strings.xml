@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Urgent</string>
+    <string name="hint_edit">Location</string>
+    <string name="send_msg">Send</string>
+</resources>
